@@ -1,8 +1,10 @@
 name: outputs
 on: 
-  push:
-    branches:
-    - main
+  # push:
+  #   branches:
+  #   - main
+
+  workflow_dispatch:  
 
 jobs:
   job1:
