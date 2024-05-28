@@ -2,7 +2,7 @@ name: outputs
 on: 
   push:
     branches:
-      - main
+     - main
   workflow_dispatch:
    
 
